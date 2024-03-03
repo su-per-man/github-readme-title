@@ -12,13 +12,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/public/server.ts"
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "https://github.com/su-per-man/github-readme-title"
+      "dest": "/public/server.js"
     }
   ]
 }
