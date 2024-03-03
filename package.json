@@ -1,10 +1,10 @@
 {
   "name": "github-readme-title",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/server.js",
+  "description": "Craft a stylish and dynamic GitHub Profile Readme Title with modern elegance",
+  "main": "build/server.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "npm run build && node build/server.js",
     "dev": "ts-node-dev --respawn src/server.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
