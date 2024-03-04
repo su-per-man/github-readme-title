@@ -1,16 +1,15 @@
-import express, { Response } from "express";
+import express, { Request, Response } from "express";
 import headingRoutes from "./routes/headingRoutes";
-// import generateSVG from './utils/svgGenerator';
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
-app.get("/", (_, res: Response) => {
-  res.send("Health: OK");
+app.get("/", (_req: Request, res: Response) => {
+  return res.send("App Running...");
 });
 
 app.use("/api/headings", headingRoutes);
 
 app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  return console.log(`Server is listening on ${port}`);
 });
