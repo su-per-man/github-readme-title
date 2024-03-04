@@ -2,11 +2,12 @@
   "name": "github-readme-title",
   "version": "1.0.0",
   "description": "Craft a stylish and dynamic GitHub Profile Readme Title with modern elegance",
-  "main": "dist/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "npm run build && node dist/server.js",
+    "start": "npm run build && node src/server.ts",
     "dev": "ts-node-dev --respawn src/server.ts",
     "build": "tsc",
+    "ts.check": "tsc --project tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
