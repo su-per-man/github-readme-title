@@ -10,7 +10,6 @@ const constants_1 = require("../config/constants");
 const generateGradientHeadingSVG = (title, size) => {
     // TODO:: colors: string[]
     const svgTemplate = getSVGTemplate(constants_1.GRADIENT_HEADING_1);
-    console.log(size);
     return svgTemplate
         .replace(constants_1.templateValues.title, title)
         .replace(constants_1.templateValues.size, size.toString());

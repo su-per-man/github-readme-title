@@ -13,7 +13,6 @@ export const generateGradientHeadingSVG = (
   // TODO:: colors: string[]
 
   const svgTemplate = getSVGTemplate(GRADIENT_HEADING_1);
-  console.log(size);
   return svgTemplate
     .replace(templateValues.title, title)
     .replace(templateValues.size, size.toString());
