@@ -1,7 +1,7 @@
 <p align="center">
  <img width="50%" src="./assets/Github_Readme_Title_logo.png" align="center" alt="GitHub Readme Title" />
  <h2 align="center">GitHub Readme Title</h2>
- <p align="center">Craft a stylish and dynamic GitHub Profile Readme Title with modern elegance ✨</p>
+ <p align="center">Enhance Your GitHub Profile with a Sleek, Animated README Title ✨</p>
 </p>
   <p align="center">
     <a href="https://github.com/su-per-man/github-readme-title/graphs/contributors">
@@ -22,6 +22,16 @@
       <img src="./assets/powered-by-vercel.svg"/>
     </a>
   </p>
+
+## Overview
+Welcome to `github-readme-title`, a creative tool designed to help you elevate your GitHub profile's README with stylish and animated titles that capture attention and express your personality or project's essence.
+
+## Features
+
+- **Animated Titles**: Choose from a selection of animated titles that suit your style or theme, adding a layer of sophistication and engagement to your README.
+- **Customization**: Tailor the colors, fonts, and animation speed to match your personal brand or project's identity. `coming soon!`
+- **Easy Integration**: Simply copy the generated markdown or HTML code and paste it into your README file for an instant transformation.
+- **Free and Open Source**: Modify, distribute, and use the tool as you see fit. Contributions are welcome!
 
 
 ## Demo
